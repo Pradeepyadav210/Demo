@@ -1,0 +1,96 @@
+/* Modal styling */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 500px;
+    max-width: 90%;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .save-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Editable field styling */
+  .editable-field {
+    margin-bottom: 20px;
+  }
+  
+  .editable-field label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .editable-field div {
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Comment section styling */
+  .comment-section {
+    margin-top: 20px;
+  }
+  
+  .comment-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .comment-section li {
+    background: #f1f1f1;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Assign person dropdown styling */
+  .assign-person-dropdown {
+    margin-bottom: 20px;
+  }
+  
+  .assign-person-dropdown select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Event status toggle styling */
+  .event-status-toggle {
+    margin-bottom: 20px;
+  }
+  
+  .event-status-toggle label {
+    cursor: pointer;
+  }
+  
